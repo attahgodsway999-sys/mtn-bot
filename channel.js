@@ -1,7 +1,7 @@
-const { Users, Channels, Transactions } = require('../db/queries');
+const { Users, Channels, Transactions } = require('./db/queries');
 const { v4: uuidv4 } = require('uuid');
-const momo = require('../mtn/momoClient');
-const { formatAmount } = require('../utils/helpers');
+const momo = require('./mtn/momoClient');
+const { formatAmount } = require('./utils/helpers');
 
 function register(bot) {
 
