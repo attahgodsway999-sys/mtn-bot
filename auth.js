@@ -1,5 +1,4 @@
-const { Users, Sessions } = require('../db/queries');
-
+const { Users, Sessions } = require('./queries');
 /**
  * Auto-registers the user in the DB on any incoming message.
  * Attaches user record and session to msg for downstream handlers.
