@@ -1,4 +1,4 @@
-const { Users, Sessions } = require('../db/queries');
+const { Users, Sessions } = require('./queries');
 const { isValidPhone, cleanPhone } = require('../utils/helpers');
 
 function register(bot) {
