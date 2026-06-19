@@ -1,7 +1,7 @@
 const { v4: uuidv4 } = require('uuid');
-const { Users, Transactions, PaymentRequests } = require('../db/queries');
-const momo = require('../mtn/momoClient');
-const { formatAmount, formatTx, isValidPhone, cleanPhone } = require('../utils/helpers');
+const { Users, Transactions, PaymentRequests } = require('./db/queries');
+const momo = require('./mtn/momoClient');
+const { formatAmount, formatTx, isValidPhone, cleanPhone } = require('./utils/helpers');
 
 function register(bot) {
 
